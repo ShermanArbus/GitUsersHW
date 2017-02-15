@@ -1,0 +1,21 @@
+header {
+  background-color: rgb(255, 111, 111);
+
+}
+
+.header_title {
+  margin: 5px;
+}
+
+main {
+  margin: 5%;
+}
+
+section {
+  border: 1px solid rgb(255, 0, 0);
+  width: 30%;
+}
+
+aside {
+  border: 1px solid rgb(0, 0, 0);
+}

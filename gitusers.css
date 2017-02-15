@@ -39,13 +39,15 @@ aside {
 
 h1.profile_block {
   box-sizing: border-box;
-  float: right;
+  float: top; right;
   width: 50%;
 }
 
 p.profile_block {
   box-sizing: border-box;
-  float: right;
+  float: top; right;
+  /*color: rgb(255, 0, 0);*/
+  width: 50%;
 }
 
 img {
@@ -54,3 +56,26 @@ img {
   width: 20%;
   margin: 2%;
 }
+
+.filename {
+  box-sizing: border-box;
+  display: block;
+  float: top; left;
+  width: 50%;
+}
+
+.codeLang {
+  display: block;
+  float: top; right;
+  box-sizing: border-box;
+  width: 50%;
+  font-weight: bold;
+}
+
+/*.files_box {
+  border: 1px solid black;
+}*/
+
+/*p {
+  color: rgb(255, 0, 0);
+}*/

@@ -46,12 +46,18 @@ aside::after {
   margin: 0.5em;
 
 }*/
+aside.profile_block {
+  padding: 1em;
+}
+
+h1 {
+  margin: 0;
+}
 
 h1.profile_block {
   box-sizing: border-box;
   float: right;
   width: 50%;
-  margin-left: 2em;
 }
 
 p.profile_block {
@@ -64,7 +70,7 @@ img {
   display: block;
   float: left;
   width: 25%;
-  margin: 5%;
+  margin-right: 1em;
   border-radius: 10%;
 }
 

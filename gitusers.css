@@ -36,3 +36,19 @@ aside {
   margin: 0.5em;
   clear: both;
 }
+
+h1.profile_block {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+}
+
+p.profile_block {
+  box-sizing: border-box;
+  float: right;
+}
+
+img {
+  display: block;
+  float: left;
+}

@@ -1,37 +1,37 @@
-header {
-  background-color: rgb(255, 111, 111);
 
+header {
+  color: rgb(255, 255, 255);
+  background-color: rgb(152, 227, 240);
+  padding: 1em 3% 1em 3%;
 }
 
-/*body {
-  box-sizing: border-box;
-}*/
+header h1 {
+  font-size: 100%;
+  float: left;
+  display: block;
+  width: 75%;
+}
+header p {
+  margin: 0;
+  display: inline;
+  text-align: right;
+  padding-left: 3em;
+}
 
-/*.header_title {
-  margin: 0.5em;
-  float: top;
-  width: 40%;
-
-  box-sizing: border-box;
-}*/
-
-/*main {
-  margin: 5%;
-}*/
-
-
+body {
+  font-family: arial, sans-serif;
+}
 section {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-top: 1px solid rgb(0,0,0);
+  border-left: 1px solid rgb(0,0,0);
+  border-right: 1px solid rgb(0,0,0);
   float: left;
   width: 25%;
   margin: 3%;
-
 }
 
 aside {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(0,0,0);
 }
 
 aside::after {
@@ -39,13 +39,7 @@ aside::after {
   display: block;
   clear: both;
 }
-/*.header_right {
-  box-sizing: border-box;
-  float: right;
-  width: 40%;
-  margin: 0.5em;
 
-}*/
 aside.profile_block {
   padding: 1em;
 }
@@ -101,13 +95,3 @@ img {
     height: 12px;
     border-radius: 50%;
 }
-
-/*.files_box {
-  display: block;
-  float: left;
-  width: 100%;
-}*/
-
-/*p {
-  color: rgb(255, 0, 0);
-}*/

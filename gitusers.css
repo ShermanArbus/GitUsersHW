@@ -45,14 +45,13 @@ aside::after {
 h1.profile_block {
   box-sizing: border-box;
   float: right;
-
   width: 50%;
+  margin: 2em;
 }
 
 p.profile_block {
   box-sizing: border-box;
   float: right;
-
   /*color: rgb(255, 0, 0);*/
   width: 50%;
 }
@@ -61,16 +60,15 @@ img {
   display: block;
   float: left;
   width: 20%;
-  margin: 2%;
-
+  margin: 5%;
 }
 
 .filename {
   box-sizing: border-box;
   display: block;
   float: left;
-
   width: 30%;
+  margin-left: 1em;
 }
 
 .codeLang {
@@ -79,7 +77,18 @@ img {
   box-sizing: border-box;
   width: 30%;
   font-weight: bold;
+  text-align: right;
+  margin-right: 1em;
 
+}
+
+.repo-language-color {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
 }
 
 /*.files_box {

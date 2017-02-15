@@ -7,13 +7,13 @@ header {
   box-sizing: border-box;
 }*/
 
-.header_title {
+/*.header_title {
   margin: 0.5em;
-  float: top; left;
+  float: top;
   width: 40%;
-  clear: both;
+
   box-sizing: border-box;
-}
+}*/
 
 main {
   margin: 5%;
@@ -21,7 +21,7 @@ main {
 
 
 section {
-  border: 1px solid rgb(255, 0, 0);
+  /*border: 1px solid rgb(255, 0, 0);*/
   width: 30%;
 }
 
@@ -29,23 +29,30 @@ aside {
   border: 1px solid rgb(0, 0, 0);
 }
 
-.header_right {
-  box-sizing: border-box;
-  float: top; right;
-  width: 40%;
-  margin: 0.5em;
+aside::after {
+  content: '';
+  display: block;
   clear: both;
 }
+/*.header_right {
+  box-sizing: border-box;
+  float: right;
+  width: 40%;
+  margin: 0.5em;
+
+}*/
 
 h1.profile_block {
   box-sizing: border-box;
-  float: top; right;
+  float: right;
+
   width: 50%;
 }
 
 p.profile_block {
   box-sizing: border-box;
-  float: top; right;
+  float: right;
+
   /*color: rgb(255, 0, 0);*/
   width: 50%;
 }
@@ -55,25 +62,30 @@ img {
   float: left;
   width: 20%;
   margin: 2%;
+
 }
 
 .filename {
   box-sizing: border-box;
   display: block;
-  float: top; left;
-  width: 50%;
+  float: left;
+
+  width: 30%;
 }
 
 .codeLang {
   display: block;
-  float: top; right;
+  float: right;
   box-sizing: border-box;
-  width: 50%;
+  width: 30%;
   font-weight: bold;
+
 }
 
 /*.files_box {
-  border: 1px solid black;
+  display: block;
+  float: left;
+  width: 100%;
 }*/
 
 /*p {

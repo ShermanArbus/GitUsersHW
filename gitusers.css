@@ -15,14 +15,17 @@ header {
   box-sizing: border-box;
 }*/
 
-main {
+/*main {
   margin: 5%;
-}
+}*/
 
 
 section {
   /*border: 1px solid rgb(255, 0, 0);*/
-  width: 30%;
+  float: left;
+  width: 25%;
+  margin: 3%;
+
 }
 
 aside {

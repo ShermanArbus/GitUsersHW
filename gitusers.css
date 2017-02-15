@@ -51,4 +51,6 @@ p.profile_block {
 img {
   display: block;
   float: left;
+  width: 20%;
+  margin: 2%;
 }

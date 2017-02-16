@@ -94,4 +94,7 @@ img {
     width: 12px;
     height: 12px;
     border-radius: 50%;
+    background-color: rgb(113, 19, 6)
 }
+/*yes I totally stole this ^^^ directly from the code on github. 
+Modified to put bg color in css vs in the html style tag. */
